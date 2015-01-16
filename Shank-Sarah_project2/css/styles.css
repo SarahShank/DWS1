@@ -1,0 +1,60 @@
+
+body { /* body element*/
+	font-size: 80%; /* font size within body element */
+	font-family: "Helvetica Neue", Helvetica, sans-serif; /*font family options within body element*/
+	letter-spacing: 0.17em;	/* letter spacing of 0.17em within body element*/
+	background-color: #EFFCFF; /* background color within body element */
+	border: 3px double #000; /*border of body element, 3px double line color #000*/
+}
+	
+h1,h2,h3{ /* header elements 1,2,3*/
+	color: hsla(245,76%,31%,1); /* hsl color using formula used for text*/
+	text-align: center; /* heading font aligned center*/
+	font-weight: medium; /*font weight medium*/
+	text-shadow: 1px 1px 1px #fff; /* shadow spacing for text within headers*/
+	font: 200% Helvetica Neue, Helvetica, sans-serif;
+}
+
+ul { /* unordered list */
+	width: 625px; /* width of content in ul*/
+	border-top: 1px solid #000; /*  border top 1px solid line color #000*/
+	border-bottom: 2px solid #000; /*bottom border 2px solid line color #000*/
+	padding: 15px; /* padding space within element */
+	margin: 0 auto; /* auto margin */
+	list-style-type: none; 
+	text-align: center; /* text align within ul is to be centered */
+}
+
+strong { /* strong emphasis */
+	color: rgb(151,204,45); /* color of strong emphasis will be RGB formula choose*/
+}
+
+a:hover, a#links {/* users interact with links and see color*/
+	color: #;f5faed; /*color*/
+	background-color: #fff; /* display white background when hovering over links*/
+	}
+
+#info { /* id tag "info" for email and top of page link*/
+	text-align: center; /* align content in center*/
+	text-decoration: underline; /* underline text */
+}
+	
+#images { /* id tag "images" for pictures*/
+	width: 303px; /* width */
+	margin: 10px auto; /*centering inside of page (auto) */
+	border: 3px green;/* border around image 3px and color green*/
+	display: block; /* change default to block*/
+}
+
+#p { /*paragraph element*/
+	font-family: Arial, Verdana, sans-serif; /* font to be used in p elements*/
+	line-height: 1.5; /* line height space*/
+	width:303px; /* width  */
+	margin:10 px auto;/* margin 10 px auto */
+}
+
+#links { /* id tag "links" for user links*/
+	text-align: center; /* align links to center*/
+}
+
+
